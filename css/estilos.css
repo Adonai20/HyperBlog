@@ -1,3 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body{
     text-align: center;
     font-family: "Arial";}
+
+/* Post contenedor */
+main{
+    border: 1px solid #e0e0e0;
+    max-width: 820px;
+    min-height: 300px;
+    margin: auto;
+    margin-top: 100px;}
+
+.post{
+    margin: 30px auto;
+    width: 95%;
+    min-height: 150px;}
+
+.post h2{
+    margin-bottom: 20px;
+    font-size: 30px;
+    text-align: left;
+    font-weight:bold;
+    color: #474747;
+    text-shadow: -1px 0px 2px #ced0de;}
+
+.post p{
+    color: #474747;
+    text-align: justify;
+    font-size: 25px;
+    line-height: 30px;}
+
